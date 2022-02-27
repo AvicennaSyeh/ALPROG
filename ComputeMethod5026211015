@@ -1,25 +1,25 @@
 import java.util.Random;
 
-public class ComputeMethods {
+public class ComputeMethods5026211015 {
 
     // ini untuk merubah fahrenheit ke degree
-    
-    
+
+
     public double fToC (double degreesF) {
         return 5 / 9.0 * (degreesF - 32);
     }
 
     // ini rumus phytagoras
-    
-    
+
+
     public double hypotenuse (double a, double b) {
         return Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
     }
 
     // ini random untuk keluar mata dadu
-    
-    
-    
+
+
+
     public int roll () {
 
         Random random = new Random();
